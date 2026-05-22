@@ -1,142 +1,166 @@
-# 🎓 AASTU Events Hub
+# 🚀 AASTU Events Hub
 
-> A modern university event management ecosystem that connects students, event organizers, clubs, companies, and administrators through one centralized platform.
+<div align="center">
 
-🌐 **Live Demo:** https://shecode-frontend.vercel.app
+![AASTU Events Hub Banner](https://via.placeholder.com/1200x300?text=AASTU+Events+Hub)
 
-🌐 **Live Vedio:** https://drive.google.com/file/d/1fXOxQti42sx192D3FwRG4JRkrOUocTN7/view
+### 🎓 Transforming University Events into Connected Experiences
 
----
+A modern event management ecosystem designed to connect students, organizers, university clubs, companies, and administrators through one intelligent platform.
 
-## 📖 Overview
+[🌐 Live Demo](https://shecode-frontend.vercel.app/) • [🎥 Demo Video](https://drive.google.com/file/d/1fXOxQti42sx192D3FwRG4JRkrOUocTN7/view)
 
-AASTU Events Hub is a comprehensive event management platform designed to simplify the process of discovering, promoting, organizing, and managing university events.
-
-The platform enables students to explore events, register seamlessly, receive updates, and engage with the university community. It also provides organizers with tools to create and promote events while allowing administrators to manage the entire ecosystem efficiently.
+</div>
 
 ---
 
-## ✨ Key Features
+## ✨ About the Project
 
-### 👨‍🎓 Student Features
+AASTU Events Hub is a next-generation university event management platform built to simplify event discovery, registration, promotion, and administration.
 
-* Browse and search events
-* Event registration
+The platform serves as a centralized ecosystem where students can discover opportunities, organizers can promote events, and administrators can manage the entire event lifecycle efficiently.
+
+---
+
+## 🌟 Why AASTU Events Hub?
+
+✅ Discover upcoming university events
+
+✅ Register and manage event participation
+
+✅ Receive real-time notifications and reminders
+
+✅ Dedicated organizer portal
+
+✅ Event promotion and sponsorship management
+
+✅ Interactive event microsites
+
+✅ Admin moderation and analytics dashboard
+
+✅ Modern responsive UI
+
+✅ Dark & Light Mode
+
+---
+
+## 🎯 Core Features
+
+### 👨‍🎓 Student Experience
+
+* Browse and explore events
+* Event registration system
 * Personalized dashboard
-* QR-based event tickets
-* Event reminders and notifications
-* Saved/bookmarked events
-* Event participation history
-* Recommended events
-* Reviews and ratings
-* Achievement badges and certificates
+* QR-code event tickets
+* Saved events
+* Event history
+* Notifications & reminders
+* Achievement badges
+* Certificates
+* Event reviews and ratings
 
-### 🎯 Event Organizer Features
+---
 
-* Organizer application and verification
-* Event creation and management
-* Sponsor and partner company management
-* Event promotion requests
-* Payment receipt submission
-* Organizer dashboard
-* Registration tracking
+### 🎪 Event Organizer Portal
 
-### 🛡️ Admin Features
+Verified organizers can:
+
+* Apply for organizer status
+* Upload verification documents
+* Create and manage events
+* Add sponsors and partner companies
+* Submit promotion requests
+* Upload payment receipts
+* Monitor registrations
+
+---
+
+### 🛡️ Admin Dashboard
+
+Administrators can:
 
 * Approve or reject organizers
-* Verify event promotion requests
+* Verify uploaded documents
+* Approve promoted events
 * Manage users and events
-* Track analytics and revenue
-* Moderate content
+* View analytics and reports
+* Track platform revenue
 * Send notifications
-* View platform activity logs
-
-### 🚀 Advanced Features
-
-* Dark & Light Mode
-* Responsive Design
-* Interactive Dashboards
-* Event Microsites
-* Community Discussions
-* Smart Event Recommendations
-* Volunteer Opportunities
-* Internship Opportunities
-* Accessibility Support
-* Gamification & Leaderboards
+* Moderate content
 
 ---
 
-## 🏗️ System Architecture
+## 💰 Event Promotion Packages
+
+| Package    | Duration | Price    |
+| ---------- | -------- | -------- |
+| Starter    | 3 Days   | 200 ETB  |
+| Standard   | 1 Week   | 1000 ETB |
+| Premium    | 2 Weeks  | 2000 ETB |
+| Enterprise | 1 Month  | 5000 ETB |
+
+Organizers can submit payment receipts and promotion requests which are reviewed by administrators before publication.
+
+---
+
+## 🏗️ Platform Architecture
 
 ```text
                     Backend APIs
                           │
-          ┌───────────────┴───────────────┐
-          │                               │
-   Main React Application        Event Microsites
-          │                               │
-          └───────────────┬───────────────┘
+       ┌──────────────────┴──────────────────┐
+       │                                     │
+ Main React Application           Event Microsites
+       │                                     │
+       └──────────────────┬──────────────────┘
                           │
-                     End Users
+                   AASTU Community
 ```
 
 ---
 
 ## 📱 Main Modules
 
-### Home Page
+### 🏠 Landing Page
 
 * Hero Section
 * Featured Events
 * Trending Events
-* Statistics Dashboard
+* Statistics
 * Testimonials
 * Community Impact
 
-### Event Management
+### 📅 Event Management
 
 * Event Listings
 * Event Details
-* Registration System
+* Event Registration
 * Event Tracking
 
-### Organizer Portal
+### 🎪 Organizer System
 
-* Verification Requests
-* Event Submission
+* Organizer Verification
+* Event Creation
 * Sponsor Management
 * Promotion Packages
 
-### Admin Dashboard
+### 📊 Analytics Dashboard
 
-* User Management
-* Organizer Approval
-* Event Moderation
-* Revenue Analytics
-
----
-
-## 💰 Event Promotion Packages
-
-| Duration | Price    |
-| -------- | -------- |
-| 3 Days   | 200 ETB  |
-| 1 Week   | 1000 ETB |
-| 2 Weeks  | 2000 ETB |
-| 1 Month  | 5000 ETB |
-
-Organizers can submit payment receipts and promotion requests, which are reviewed and approved by administrators.
+* Registration Statistics
+* Revenue Insights
+* Event Performance
+* User Activity
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technology Stack
 
 ### Frontend
 
 * React
 * Vite
 * Tailwind CSS
-* React Router
+* React Router DOM
 * Framer Motion
 * Axios
 
@@ -165,7 +189,6 @@ Organizers can submit payment receipts and promotion requests, which are reviewe
 
 ```bash
 git clone https://github.com/She-Codes-AASTU-Events-Hub/AASTU-event-hub-frontend.git
-cd AASTU-event-hub-frontend
 ```
 
 ### Install Dependencies
@@ -174,13 +197,13 @@ cd AASTU-event-hub-frontend
 npm install
 ```
 
-### Start Development Server
+### Run Development Server
 
 ```bash
 npm run dev
 ```
 
-### Build for Production
+### Build Project
 
 ```bash
 npm run build
@@ -191,47 +214,53 @@ npm run build
 ## 📂 Project Structure
 
 ```text
-src/
-├── assets/
-├── components/
-├── pages/
-├── layouts/
-├── routes/
-├── context/
-├── hooks/
-├── services/
-├── utils/
-└── data/
+src
+├── assets
+├── components
+├── context
+├── data
+├── hooks
+├── layouts
+├── pages
+├── routes
+├── services
+└── utils
 ```
 
 ---
 
-## 🎯 Project Goals
+## 🎥 Project Demo
+
+Watch the full demonstration to explore the platform's features and user experience.
+
+🎬 Demo Video:
+https://drive.google.com/file/d/1fXOxQti42sx192D3FwRG4JRkrOUocTN7/view
+
+🌍 Live Application:
+https://shecode-frontend.vercel.app/
+
+---
+
+## 🎯 Project Objectives
 
 * Improve student engagement
-* Simplify event discovery and registration
-* Provide event promotion tools for organizers
-* Enable efficient event administration
+* Simplify event registration
+* Support university clubs and organizers
+* Create a scalable event ecosystem
 * Simulate real-world software development collaboration
 
 ---
 
-## 👥 Team Collaboration
+## 👩‍💻 She Codes AASTU Collaborative Project
 
-This project was developed as part of the **She Codes AASTU Final Collaborative Project**, bringing together UI/UX Designers, Frontend Developers, React Developers, and Backend Developers to build a complete event management ecosystem.
-
----
-
-## 🔗 Live Application
-
-🌐 https://shecode-frontend.vercel.app/
+Developed as part of the She Codes AASTU Final Collaborative Project, bringing together designers, frontend developers, React developers, and backend developers to create a complete university event ecosystem.
 
 ---
 
-## 📜 License
+<div align="center">
 
-This project was developed for educational and collaborative learning purposes under the She Codes AASTU Program.
+### 🌟 Empowering Students Through Technology
 
----
+Built with ❤️ by the She Codes AASTU Team
 
-### Made with ❤️ by the She Codes AASTU Team
+</div>
