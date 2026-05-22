@@ -1,8 +1,6 @@
 # 🚀 AASTU Events Hub
 
-<div align="center">
 
-![AASTU Events Hub Banner](https://via.placeholder.com/1200x300?text=AASTU+Events+Hub)
 
 ### 🎓 Transforming University Events into Connected Experiences
 
