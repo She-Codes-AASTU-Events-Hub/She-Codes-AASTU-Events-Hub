@@ -2,7 +2,8 @@
 
 > A modern university event management ecosystem that connects students, event organizers, clubs, companies, and administrators through one centralized platform.
 
-🌐 **Live Demo:** https://shecode-frontend.vercel.app/
+🌐 **Live Demo:** https://shecode-frontend.vercel.app
+
 🌐 **Live Vedio:** https://drive.google.com/file/d/1fXOxQti42sx192D3FwRG4JRkrOUocTN7/view
 
 ---
